@@ -1,0 +1,19 @@
+{
+  "name": "custom-label-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrishanthmathew91/custom-label-tester.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrishanthmathew91/custom-label-tester/issues"
+  },
+  "homepage": "https://github.com/chrishanthmathew91/custom-label-tester#readme"
+}
