@@ -10,4 +10,4 @@ jobs:
     - uses: chrishanthmathew91/actions/dist/pull_request_labeler@master
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        branches: staging, pre-prod
+        target-branches: staging, pre-prod
