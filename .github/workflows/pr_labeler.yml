@@ -11,5 +11,5 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         required: 2
-        wip: true
+        wip: false
         target-branch: staging
