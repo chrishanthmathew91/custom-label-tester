@@ -12,4 +12,4 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         required: 2
         wip: false
-        target-branch: staging
+        target-branch: pre-prod
