@@ -1,0 +1,16 @@
+name: Changes in Staging Labeler
+
+on: 
+  push:
+    branches:
+      - staging
+
+jobs:
+  labelPrChangesInBranch:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: chrishanthmathew91/actions/dist/changes_in_branch_labeler@master
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        target-branch: staging
