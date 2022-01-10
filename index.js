@@ -6,3 +6,4 @@ console.log('A new line to test label');
 console.log('Hopefully the final log');
 
 console.log('Final test - A new commit');
+console.log('Final test - A new commit that should remove the label');
