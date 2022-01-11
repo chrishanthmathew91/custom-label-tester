@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: chrishanthmathew91/actions/dist/changes_in_branch_labeler@feature/add-colors
+    - uses: chrishanthmathew91/actions/dist/changes_in_branch_labeler@master
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         target-branch: staging
