@@ -1,6 +1,6 @@
 name: Changes in Staging Labeler
 
-on: 
+on:
   push:
     branches:
       - staging
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: chrishanthmathew91/actions/dist/changes_in_branch_labeler@master
+    - uses: chrishanthmathew91/actions/dist/changes_in_branch_labeler@feature/add-colors
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         target-branch: staging
