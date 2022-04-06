@@ -10,3 +10,6 @@ jobs:
     - uses: chrishanthmathew91/actions/dist/pull_request_labeler@master
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
+        required: 2
+        wip: false
+        target-branch: staging
